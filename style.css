@@ -83,7 +83,7 @@ ul li a {
 
 /* Header navigation section Style */
 
-.header-nav .container {
+.header-nav > .container {
     min-height: 80px;
     display: flex;
     justify-content: space-between;
@@ -121,7 +121,7 @@ ul li a {
     background-size: 50% 100%;
 }
 
-.banner .container {
+.banner > .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -174,16 +174,16 @@ ul li a {
     padding: 50px 0px;
 }
 
-.gamer .container {
+.gamer > .container {
     display: flex;
     align-items: center;
 }
 
-.gamer .left {
+.gamer > .container > .left {
     max-width: 65%;
 }
 
-.gamer .right {
+.gamer > .container > .right {
     max-width: 35%;
     text-align: right;
 }
@@ -219,7 +219,7 @@ ul li a {
     margin-top: 10px;
 }
 
-.funny .game-cards {
+.funny > .container > .game-cards {
     display: flex;
     gap: 15px;
     justify-content: space-evenly;
@@ -292,7 +292,7 @@ ul li a {
     padding: 50px 0px;
 }
 
-.play .container {
+.play > .container {
     display: flex;
     align-items: center;
 }
@@ -465,8 +465,16 @@ footer .scial-icon nav ul li a .fa-youtube {
 
 
 
+
+
+
+/* ----------- Responsive Design -------------- */
+
+
+
 @media screen and (max-width:480px) {
 
+    
     /* general styles  */
     .title {
         font-size: 26px;
@@ -513,8 +521,8 @@ footer .scial-icon nav ul li a .fa-youtube {
         padding: 30px;
     }
 
-    .gamer .right,
-    .gamer .left {
+    .gamer > .container > .right,
+    .gamer > .container > .left {
         max-width: 100%;
         text-align: center;
     }
@@ -579,8 +587,8 @@ footer .scial-icon nav ul li a .fa-youtube {
         padding: 50px 0px 35px;
     }
 
-    .career .left,
-    .career .right {
+    .career > .container > .left,
+    .career > .container > .right {
         width: 95%;
     }
 
