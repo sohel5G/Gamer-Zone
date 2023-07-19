@@ -1,26 +1,156 @@
 /* General Styles  */
-*{
+* {
     margin: 0px;
+    font-family: 'Work Sans', sans-serif;
 }
-:root{
-    --primary-color:#FF42A5;
+
+:root {
+    --primary-color: #FF42A5;
 }
-.container{
-    max-width: 1000px;
+
+.container {
+    max-width: 1100px;
     margin: auto;
 }
-ul{
+
+.primary-color {
+    color: var(--primary-color);
+}
+
+.linear-color-title {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.btn-primary{
+    padding: 15px 35px;
+    border-radius: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.btn-pink{
+    background-color: #F948B2;
+    color: #ffffff;
+}
+.btn-white{
+    background-color: #ffffff;
+    color: #000000;
+}
+.btn-blue{
+    background-color: #4EC5F7;
+    color: #ffffff;
+}
+
+ul {
     padding: 0px;
     display: flex;
+    list-style: none;
+    align-items: center;
 }
-ul li{
+
+ul li a {
+    text-decoration: none;
+}
+
+.logo-icon img {
+    width: 70px;
+}
+
+.logo-text h1 {
+    font-size: 35px;
+}
+
+.logo {
     display: flex;
+    gap: 10px;
+    align-items: center;
 }
 
+/* Header navigation section Style */
 
- /* Header navigation section Style */
-
-.header-nav .container{
+.header-nav .container {
+    height: 80px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
+
+.header-nav .navigation nav>ul li a {
+    padding: 15px;
+    font-size: 16px;
+    color: #3C354F;
+}
+
+.header-nav .navigation .nav-follow-icon li a {
+    padding: 8px;
+    font-size: 16px;
+    color: #3C354F;
+}
+
+.header-nav .navigation .nav-follow-icon {
+    border-radius: 5px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 10px;
+}
+
+.header-nav .navigation .nav-follow-icon li a .fa-youtube {
+    color: red;
+    font-size: 20px;
+}
+
+
+.header-nav {
+    background-color: rgb(243, 243, 243);
+}
+
+
+
+/* Banner section Style  */
+.banner{
+    background-image: url('./img/Group14.png');
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: 50% 100%;
+}
+.banner .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner h1 {
+    font-size: 38px;
+    text-transform: uppercase;
+    color: #0B0223;
+    font-weight: 600;
+}
+
+.banner .linear-color-title {
+    font-weight: 800;
+    font-size: 65px;
+    letter-spacing: 3px;
+}
+.banner p{
+    font-size: 18px;
+    line-height: 35px;
+}
+.banner p .fa-circle-play, .banner p .fa-download{
+    color: var(--primary-color)
+}
+.banner p .fa-user-group{
+    font-size: 14px;
+}
+.btn-group{
+    margin-top: 35px;
+}
+.banner .left, .banner .right{
+    max-width: 50%;
+}
+.banner .right img{
+    width: 100%;
+}
+
+
+
