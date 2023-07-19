@@ -107,13 +107,6 @@ ul li a {
     font-size: 20px;
 }
 
-
-.header-nav {
-    background-color: rgb(243, 243, 243);
-}
-
-
-
 /* Banner section Style  */
 .banner{
     background-image: url('./img/Group14.png');
@@ -361,12 +354,11 @@ ul li a {
     padding: 10px 0px;
 }
 
-
 /* Footer section style  */
 
 footer{
     background-color: #0B0223;
-    padding: 70px 0px 20px;
+    padding: 60px 0px;
     color: #ffffff;
     text-align: center;
 }
@@ -394,6 +386,10 @@ footer .scial-icon nav ul li a .fa-youtube{
 }
 
 
+
+@media screen and ( max-width:480px ){
+    
+}
 
 
 
