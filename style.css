@@ -23,6 +23,13 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.title{
+    font-size: 34px;
+}
+.pera{
+    font-size: 17px;
+    line-height: 27px;
+}
 .btn-primary{
     padding: 15px 35px;
     border-radius: 50px;
@@ -151,6 +158,53 @@ ul li a {
 .banner .right img{
     width: 100%;
 }
+
+
+/* We are gamer section style  */
+.gamer{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 50px 0px;
+}
+.gamer .container{
+    display: flex;
+    align-items: center;
+}
+.gamer .left{
+    max-width: 65%;    
+}
+.gamer .right{
+    max-width: 35%;
+    text-align: right;
+}
+.gamer .left img{
+    width: 100%;
+}
+.gamer .right .pera{
+    margin: 16px 0px 30px;
+}
+.gamer .right h4{
+    margin-top: 40px;
+    font-size: 22px;
+    line-height: 35px;
+}
+.gamer .right h4 span{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
