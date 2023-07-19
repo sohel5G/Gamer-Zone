@@ -207,9 +207,6 @@ ul li a {
     justify-content: space-evenly;
     margin-top: 30px;
 }
-.funny .game-cards .game-card-column{
-    
-}
 .funny .game-cards .game-card-column .overlay .play-icon{
     display: none;
 }
@@ -256,19 +253,37 @@ ul li a {
 .funny .game-cards .game-card-column .img4{
     background-image: url('./img/Rectangle\ 6.png');
 }
-.funny .game-cards .img
-.funny .game-cards .img .overlay
-.funny .game-cards .img .overlay .play-icon
-.funny .game-cards .img .overlay .play-icon a
-.funny .game-cards .img .overlay .play-icon p
 
 
+/* play instently section   */
+.play{
+    padding: 50px 0px;
+}
+.play .container{
+    display: flex;
+    align-items: center;
+}
+.play .left, .play .right{
+    width: 50%;
+}
+.play .left{
+    text-align: right;
+    padding: 0px 150px;
+    margin-right: 20px;
+}
 
-
-
-
-
-
+.play .right .back-img{
+    text-align: right;
+}
+.play .right .back-img img{
+    width: 430px;
+}
+.play .right img.top{
+    width: 250px;
+    border: 1px solid #cfc7c7;
+    margin-top: -220px;
+    margin-left: -100px;
+}
 
 
 
