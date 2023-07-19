@@ -27,7 +27,7 @@
     font-size: 34px;
 }
 .pera{
-    font-size: 17px;
+    font-size: 16px;
     line-height: 27px;
 }
 .btn-primary{
@@ -192,6 +192,76 @@ ul li a {
     font-size: 20px;
     font-weight: 500;
 }
+
+/* Online Games Funny Videos section  */
+.funny{
+    padding: 70px 0px;
+}
+.funny h2.title, .funny p.pera{
+    text-align: center;
+    margin-top: 10px;
+}
+.funny .game-cards{
+    display: flex;
+    gap: 15px;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.funny .game-cards .game-card-column{
+    
+}
+.funny .game-cards .game-card-column .overlay .play-icon{
+    display: none;
+}
+.funny .game-cards .game-card-column .overlay:hover .play-icon{
+    display: block;
+}
+.funny .game-cards .game-card-column .overlay{
+    height: 315px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+.funny .game-cards .game-card-column .overlay:hover{
+    background-color: rgba(11, 2, 35, 0.70);
+    cursor: pointer;
+}
+.funny .game-cards .game-card-column .overlay .play-icon a{
+    color: #ffffff;
+    font-size: 40px;
+}
+.funny .game-cards .game-card-column .overlay .play-icon p{
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.funny .game-cards .game-card-column .img{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto 100%;
+    margin-bottom: 20px;
+}
+.funny .game-cards .game-card-column .img1{
+    background-image: url('./img/Rectangle\ 4.png');
+}
+.funny .game-cards .game-card-column .img2{
+    background-image: url('./img/Rectangle\ 5.png');
+}
+.funny .game-cards .game-card-column .img3{
+    background-image: url('./img/Rectangle\ 7.png');
+}
+.funny .game-cards .game-card-column .img4{
+    background-image: url('./img/Rectangle\ 6.png');
+}
+.funny .game-cards .img
+.funny .game-cards .img .overlay
+.funny .game-cards .img .overlay .play-icon
+.funny .game-cards .img .overlay .play-icon a
+.funny .game-cards .img .overlay .play-icon p
+
 
 
 
