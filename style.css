@@ -528,7 +528,7 @@ footer .scial-icon nav ul li a .fa-youtube {
     }
 
 
-    
+
     /* play instently section  */
 
     .play .container {
@@ -562,10 +562,91 @@ footer .scial-icon nav ul li a .fa-youtube {
     }
 
 
+    /* Career Section  */
+    .career .container {
+        flex-direction: column;
+    }
+
+    .career {
+        background-image: none;
+        padding: 50px 0px 35px;
+    }
+
+    .career .left,
+    .career .right {
+        width: 95%;
+    }
+
+    .career .right {
+        background-image: url('./img/Group\ 65.png');
+        height: 480px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center right;
+    }
+
+    /* Footer top section  */
+
+    .Footer-top .row1,
+    .Footer-top .row2 {
+        display: none;
+    }
+
+    .Footer-top .for-mobile ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .Footer-top .for-mobile ul li {
+        display: flex;
+        align-items: center;
+        border: 2px solid transparent;
+        padding: 7px 10px;
+        border-radius: 70px;
+    }
+
+    .Footer-top .for-mobile ul li:hover {
+        border: 2px solid #FF42A5;
+        color: #FF42A5;
+        cursor: pointer;
+    }
+
+    .Footer-top .for-mobile ul li span {
+        margin-left: 15px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .Footer-top .for-mobile ul li img {
+        width: 45px;
+    }
+
+    .Footer-top .for-mobile {
+        padding: 10px 0px;
+    }
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media screen and (min-width:481px) {
+    .Footer-top .for-mobile ul {
+        display: none;
+    }
 }
