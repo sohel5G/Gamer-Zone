@@ -292,7 +292,7 @@ ul li a {
     background-image: url('./img/Group\ 65.png');
     background-position: center right;
     background-repeat: no-repeat;
-    background-size:50%;
+    background-size:min(700px, 60%);
     padding: 20px 0px 70px;
 }
 .career .container{
@@ -325,6 +325,59 @@ ul li a {
     font-weight: 500;
     line-height: 30px;
 }
+
+
+/* Footer top section style  */
+.Footer-top{
+    padding: 90px 0px;
+}
+.Footer-top .row1 ul, .Footer-top .row2 ul{
+    justify-content: space-evenly;
+}
+.Footer-top .row1 ul li, .Footer-top .row2 ul li{
+    display: flex;
+    align-items: center;
+    border: 2px solid transparent;
+    padding: 7px 10px;
+    border-radius: 70px;
+}
+.Footer-top .row1 ul li:hover, .Footer-top .row2 ul li:hover{
+    border: 2px solid #FF42A5;
+    color: #FF42A5;
+    cursor: pointer;
+}
+.Footer-top .row1 ul li span, .Footer-top .row2 ul li span{
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.Footer-top .row1 ul li img, .Footer-top .row2 ul li img{
+    width: 45px;
+}
+.Footer-top .row1, .Footer-top .row2{
+    padding: 10px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
