@@ -23,29 +23,35 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.title{
+
+.title {
     font-size: 34px;
 }
-.pera{
+
+.pera {
     font-size: 16px;
     line-height: 27px;
 }
-.btn-primary{
+
+.btn-primary {
     padding: 15px 35px;
     border-radius: 50px;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 600;
 }
-.btn-pink{
+
+.btn-pink {
     background-color: #F948B2;
     color: #ffffff;
 }
-.btn-white{
+
+.btn-white {
     background-color: #ffffff;
     color: #F948B2;
 }
-.btn-blue{
+
+.btn-blue {
     background-color: #4EC5F7;
     color: #ffffff;
 }
@@ -78,7 +84,7 @@ ul li a {
 /* Header navigation section Style */
 
 .header-nav .container {
-    height: 80px;
+    min-height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -108,12 +114,13 @@ ul li a {
 }
 
 /* Banner section Style  */
-.banner{
+.banner {
     background-image: url('./img/Group14.png');
     background-repeat: no-repeat;
     background-position: center left;
     background-size: 50% 100%;
 }
+
 .banner .container {
     display: flex;
     align-items: center;
@@ -132,81 +139,102 @@ ul li a {
     font-size: 65px;
     letter-spacing: 3px;
 }
-.banner p{
+
+.banner p {
     font-size: 18px;
     line-height: 35px;
 }
-.banner p .fa-circle-play, .banner p .fa-download{
+
+.banner p .fa-circle-play,
+.banner p .fa-download {
     color: var(--primary-color)
 }
-.banner p .fa-user-group{
+
+.banner p .fa-user-group {
     font-size: 14px;
 }
-.btn-group{
+
+.btn-group {
     margin-top: 35px;
 }
-.banner .left, .banner .right{
+
+.banner .left,
+.banner .right {
     max-width: 50%;
 }
-.banner .right img{
+
+.banner .right img {
     width: 100%;
 }
 
 
 /* We are gamer section style  */
-.gamer{
+.gamer {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     padding: 50px 0px;
 }
-.gamer .container{
+
+.gamer .container {
     display: flex;
     align-items: center;
 }
-.gamer .left{
-    max-width: 65%;    
+
+.gamer .left {
+    max-width: 65%;
 }
-.gamer .right{
+
+.gamer .right {
     max-width: 35%;
     text-align: right;
 }
-.gamer .left img{
+
+.gamer .left img {
     width: 100%;
 }
-.gamer .right .pera{
+
+.gamer .right .pera {
     margin: 16px 0px 30px;
 }
-.gamer .right h4{
+
+.gamer .right h4 {
     margin-top: 40px;
     font-size: 22px;
     line-height: 35px;
 }
-.gamer .right h4 span{
+
+.gamer .right h4 span {
     color: #534C64;
     font-size: 20px;
     font-weight: 500;
 }
 
 /* Online Games Funny Videos section  */
-.funny{
+.funny {
     padding: 70px 0px;
 }
-.funny h2.title, .funny p.pera{
+
+.funny h2.title,
+.funny p.pera {
     text-align: center;
     margin-top: 10px;
 }
-.funny .game-cards{
+
+.funny .game-cards {
     display: flex;
     gap: 15px;
     justify-content: space-evenly;
     margin-top: 30px;
 }
-.funny .game-cards .game-card-column .overlay .play-icon{
+
+.funny .game-cards .game-card-column .overlay .play-icon {
     display: none;
 }
-.funny .game-cards .game-card-column .overlay:hover .play-icon{
+
+.funny .game-cards .game-card-column .overlay:hover .play-icon {
     display: block;
 }
-.funny .game-cards .game-card-column .overlay{
+
+.funny .game-cards .game-card-column .overlay {
     height: 315px;
     display: flex;
     align-items: center;
@@ -215,66 +243,80 @@ ul li a {
     border-radius: 8px;
     border: 2px solid transparent;
 }
-.funny .game-cards .game-card-column .overlay:hover{
+
+.funny .game-cards .game-card-column .overlay:hover {
     background-color: rgba(11, 2, 35, 0.70);
     cursor: pointer;
     border: 2px solid #FF42A5;
 }
-.funny .game-cards .game-card-column .overlay .play-icon a{
+
+.funny .game-cards .game-card-column .overlay .play-icon a {
     color: #ffffff;
     font-size: 40px;
 }
-.funny .game-cards .game-card-column .overlay .play-icon p{
+
+.funny .game-cards .game-card-column .overlay .play-icon p {
     color: var(--primary-color);
     font-size: 16px;
     font-weight: 600;
     margin-top: 10px;
 }
-.funny .game-cards .game-card-column .img{
+
+.funny .game-cards .game-card-column .img {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: auto 100%;
     margin-bottom: 20px;
     border-radius: 8px;
 }
-.funny .game-cards .game-card-column .img1{
+
+.funny .game-cards .game-card-column .img1 {
     background-image: url('./img/Rectangle\ 4.png');
 }
-.funny .game-cards .game-card-column .img2{
+
+.funny .game-cards .game-card-column .img2 {
     background-image: url('./img/Rectangle\ 5.png');
 }
-.funny .game-cards .game-card-column .img3{
+
+.funny .game-cards .game-card-column .img3 {
     background-image: url('./img/Rectangle-7.1.png');
 }
-.funny .game-cards .game-card-column .img4{
+
+.funny .game-cards .game-card-column .img4 {
     background-image: url('./img/Rectangle\ 6.png');
 }
 
 
 /* play instently section   */
-.play{
+.play {
     padding: 50px 0px;
 }
-.play .container{
+
+.play .container {
     display: flex;
     align-items: center;
 }
-.play .left, .play .right{
+
+.play .left,
+.play .right {
     width: 50%;
 }
-.play .left{
+
+.play .left {
     text-align: right;
     padding: 0px 150px;
     margin-right: 20px;
 }
 
-.play .right .back-img{
+.play .right .back-img {
     text-align: right;
 }
-.play .right .back-img img{
+
+.play .right .back-img img {
     width: 430px;
 }
-.play .right img.top{
+
+.play .right img.top {
     width: 250px;
     border: 1px solid #cfc7c7;
     margin-top: -220px;
@@ -283,38 +325,47 @@ ul li a {
 
 
 /* career section style  */
-.career{
+.career {
     background-color: #FF42A5;
     background-image: url('./img/Group\ 65.png');
     background-position: center right;
     background-repeat: no-repeat;
-    background-size:min(700px, 60%);
+    background-size: min(700px, 60%);
     padding: 20px 0px 70px;
 }
-.career .container{
+
+.career .container {
     display: flex;
     align-items: center;
 }
-.career .left, .career .right{
+
+.career .left,
+.career .right {
     width: 50%;
 }
 
-.career .left h2.title, .career .left p.pera{
+.career .left h2.title,
+.career .left p.pera {
     color: #ffffff;
     margin: 20px 0px;
 }
-.career .left .skill-list{
+
+.career .left .skill-list {
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
 }
-.career .left .skill-list .skill-left{
+
+.career .left .skill-list .skill-left {
     text-align: left;
 }
-.career .left .skill-list .skill-right{
+
+.career .left .skill-list .skill-right {
     text-align: right;
 }
-.career .left .skill-list .skill-left li, .career .left .skill-list .skill-right li{
+
+.career .left .skill-list .skill-left li,
+.career .left .skill-list .skill-right li {
     list-style: none;
     font-size: 15px;
     color: #ffffff;
@@ -324,90 +375,197 @@ ul li a {
 
 
 /* Footer top section style  */
-.Footer-top{
+.Footer-top {
     padding: 90px 0px;
 }
-.Footer-top .row1 ul, .Footer-top .row2 ul{
+
+.Footer-top .row1 ul,
+.Footer-top .row2 ul {
     justify-content: space-evenly;
 }
-.Footer-top .row1 ul li, .Footer-top .row2 ul li{
+
+.Footer-top .row1 ul li,
+.Footer-top .row2 ul li {
     display: flex;
     align-items: center;
     border: 2px solid transparent;
     padding: 7px 10px;
     border-radius: 70px;
 }
-.Footer-top .row1 ul li:hover, .Footer-top .row2 ul li:hover{
+
+.Footer-top .row1 ul li:hover,
+.Footer-top .row2 ul li:hover {
     border: 2px solid #FF42A5;
     color: #FF42A5;
     cursor: pointer;
 }
-.Footer-top .row1 ul li span, .Footer-top .row2 ul li span{
+
+.Footer-top .row1 ul li span,
+.Footer-top .row2 ul li span {
     margin-left: 15px;
     font-size: 15px;
     font-weight: 600;
 }
-.Footer-top .row1 ul li img, .Footer-top .row2 ul li img{
+
+.Footer-top .row1 ul li img,
+.Footer-top .row2 ul li img {
     width: 45px;
 }
-.Footer-top .row1, .Footer-top .row2{
+
+.Footer-top .row1,
+.Footer-top .row2 {
     padding: 10px 0px;
 }
 
 /* Footer section style  */
 
-footer{
+footer {
     background-color: #0B0223;
     padding: 60px 0px;
     color: #ffffff;
     text-align: center;
 }
-footer .logo, footer .footer-nav nav ul, footer .scial-icon nav ul, footer .copyright nav ul{
+
+footer .logo,
+footer .footer-nav nav ul,
+footer .scial-icon nav ul,
+footer .copyright nav ul {
     justify-content: center;
     margin-top: 40px;
 }
-footer .footer-nav nav ul, footer .scial-icon nav ul, footer .copyright nav ul{
+
+footer .footer-nav nav ul,
+footer .scial-icon nav ul,
+footer .copyright nav ul {
     gap: 30px;
 }
-footer .logo, footer .footer-nav nav ul li a, footer .scial-icon nav ul li a, footer .copyright nav ul li a{
+
+footer .logo,
+footer .footer-nav nav ul li a,
+footer .scial-icon nav ul li a,
+footer .copyright nav ul li a {
     color: #ffffff;
 }
-footer .copyright p{
+
+footer .copyright p {
     margin-top: 25px;
 }
-footer .scial-icon nav ul li a{
+
+footer .scial-icon nav ul li a {
     font-size: 30px;
 }
-footer .scial-icon nav ul li a .fa-facebook{
+
+footer .scial-icon nav ul li a .fa-facebook {
     color: #1877F2;
 }
-footer .scial-icon nav ul li a .fa-youtube{
+
+footer .scial-icon nav ul li a .fa-youtube {
     color: #FF0000;
 }
 
 
 
-@media screen and ( max-width:480px ){
+@media screen and (max-width:480px) {
+
+    /* general styles  */
+    .title {
+        font-size: 26px;
+    }
+
+    .pera {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    /* header  */
+
+    .header-nav .container {
+        flex-direction: column;
+    }
+
+    .navigation nav>ul {
+        flex-direction: column;
+    }
+
+    .navigation nav>ul>li {
+        padding: 15px 0px;
+    }
+
+    .banner .container {
+        flex-direction: column-reverse;
+    }
+
+    .banner .left,
+    .banner .right {
+        max-width: 100%;
+        padding: 40px;
+    }
+
+
+    /* We are gamer section */
+
+    .gamer .container {
+        flex-direction: column;
+    }
+
+    .gamer .right,
+    .gamer .left {
+        max-width: 100%;
+        text-align: center;
+    }
+
+
+
+    /* Online Games Funny Videos section  */
+
+    .funny .container {
+        padding: 0px 20px;
+        text-align: center;
+    }
+
+    .funny .game-cards {
+        flex-direction: column;
+    }
+
+
     
+    /* play instently section  */
+
+    .play .container {
+        flex-direction: column;
+    }
+
+    .play .left,
+    .play .right {
+        width: 100%;
+    }
+
+    .play .left {
+        text-align: center;
+        margin-right: 0px;
+    }
+
+    .play .left .pera {
+        width: 80%;
+        margin: 50px auto;
+    }
+
+    .play .right .back-img img {
+        width: 264px;
+        margin-right: 35px;
+    }
+
+    .play .right img.top {
+        width: 187px;
+        margin-top: -110px;
+        margin-left: 26px;
+    }
+
+
+
+
+
+
+
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
