@@ -627,14 +627,23 @@ footer .scial-icon nav ul li a .fa-youtube {
     }
 
 
+    /* Footer section  */
 
 
+    footer .footer-nav nav ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
 
+    footer .scial-icon nav ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
 
-
-
-
-
+    footer .copyright nav ul{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 
 
 
