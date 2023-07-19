@@ -35,7 +35,7 @@
     border-radius: 50px;
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 600;
 }
 .btn-pink{
     background-color: #F948B2;
@@ -43,7 +43,7 @@
 }
 .btn-white{
     background-color: #ffffff;
-    color: #000000;
+    color: #F948B2;
 }
 .btn-blue{
     background-color: #4EC5F7;
@@ -286,9 +286,45 @@ ul li a {
 }
 
 
+/* career section style  */
+.career{
+    background-color: #FF42A5;
+    background-image: url('./img/Group\ 65.png');
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size:50%;
+    padding: 20px 0px 70px;
+}
+.career .container{
+    display: flex;
+    align-items: center;
+}
+.career .left, .career .right{
+    width: 50%;
+}
 
-
-
+.career .left h2.title, .career .left p.pera{
+    color: #ffffff;
+    margin: 20px 0px;
+}
+.career .left .skill-list{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.career .left .skill-list .skill-left{
+    text-align: left;
+}
+.career .left .skill-list .skill-right{
+    text-align: right;
+}
+.career .left .skill-list .skill-left li, .career .left .skill-list .skill-right li{
+    list-style: none;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 500;
+    line-height: 30px;
+}
 
 
 
