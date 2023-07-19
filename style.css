@@ -83,7 +83,7 @@ ul li a {
 
 /* Header navigation section Style */
 
-.header-nav > .container {
+.header-nav>.container {
     min-height: 80px;
     display: flex;
     justify-content: space-between;
@@ -121,7 +121,7 @@ ul li a {
     background-size: 50% 100%;
 }
 
-.banner > .container {
+.banner>.container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -174,16 +174,16 @@ ul li a {
     padding: 50px 0px;
 }
 
-.gamer > .container {
+.gamer>.container {
     display: flex;
     align-items: center;
 }
 
-.gamer > .container > .left {
+.gamer>.container>.left {
     max-width: 65%;
 }
 
-.gamer > .container > .right {
+.gamer>.container>.right {
     max-width: 35%;
     text-align: right;
 }
@@ -219,7 +219,7 @@ ul li a {
     margin-top: 10px;
 }
 
-.funny > .container > .game-cards {
+.funny>.container>.game-cards {
     display: flex;
     gap: 15px;
     justify-content: space-evenly;
@@ -292,7 +292,7 @@ ul li a {
     padding: 50px 0px;
 }
 
-.play > .container {
+.play>.container {
     display: flex;
     align-items: center;
 }
@@ -468,13 +468,13 @@ footer .scial-icon nav ul li a .fa-youtube {
 
 
 
-/* ----------- Responsive Design -------------- */
+/* --------- Responsive Design For Mobile Device --------- */
 
 
 
 @media screen and (max-width:576px) {
 
-    
+
     /* general styles  */
     .title {
         font-size: 26px;
@@ -521,8 +521,8 @@ footer .scial-icon nav ul li a .fa-youtube {
         padding: 30px;
     }
 
-    .gamer > .container > .right,
-    .gamer > .container > .left {
+    .gamer>.container>.right,
+    .gamer>.container>.left {
         max-width: 100%;
         text-align: center;
     }
@@ -539,7 +539,9 @@ footer .scial-icon nav ul li a .fa-youtube {
     .funny .game-cards {
         flex-direction: column;
     }
-
+    .funny .game-cards .game-card-column .overlay {
+        height: 413px;
+    }
 
 
     /* play instently section  */
@@ -573,7 +575,8 @@ footer .scial-icon nav ul li a .fa-youtube {
         margin-top: -141px;
         margin-left: 15%;
     }
-    .play .right .top-img{
+
+    .play .right .top-img {
         text-align: left;
     }
 
@@ -587,8 +590,8 @@ footer .scial-icon nav ul li a .fa-youtube {
         padding: 50px 0px 35px;
     }
 
-    .career > .container > .left,
-    .career > .container > .right {
+    .career>.container>.left,
+    .career>.container>.right {
         width: 95%;
     }
 
@@ -673,7 +676,206 @@ footer .scial-icon nav ul li a .fa-youtube {
 
 }
 
-@media screen and (min-width:481px) {
+
+/* --------- Responsive Design For Tablet Device --------- */
+
+
+@media screen and (max-width:768px) and (min-width:577px) {
+
+
+    /* general styles  */
+    .title {
+        font-size: 26px;
+    }
+
+    .pera {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    /* header  */
+
+    .header-nav .container {
+        flex-direction: column;
+        padding: 38px 20px;
+    }
+
+    .navigation nav>ul {
+        flex-direction: column;
+    }
+
+    .navigation nav>ul>li {
+        padding: 15px 0px;
+    }
+
+
+    /* Banner section  */
+
+    .banner .container {
+        flex-direction: column-reverse;
+        padding: 44px 0px;
+    }
+
+    .banner .left,
+    .banner .right {
+        max-width: 100%;
+        padding: 40px;
+    }
+
+    .banner .right img {
+        width: 70%;
+    }
+
+    .banner .right {
+        text-align: center;
+    }
+
+    /* We are gamer section */
+
+    .gamer .container {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .gamer>.container>.right,
+    .gamer>.container>.left {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .gamer .left img {
+        width: 75%;
+        margin-bottom: 50px;
+    }
+
+
+    /* Online Games Funny Videos section  */
+
+    .funny .container {
+        padding: 0px 20px;
+        text-align: center;
+    }
+
+    .funny .game-cards {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .funny .game-cards .game-card-column .overlay {
+        height: 392px;
+    }
+
+
+
+
+    /* play instently section  */
+
+    .play .container {
+        flex-direction: column;
+    }
+
+    .play .left,
+    .play .right {
+        width: 100%;
+    }
+
+    .play .left {
+        text-align: center;
+        margin-right: 0px;
+    }
+
+    .play .left .pera {
+        width: 80%;
+        margin: 50px auto;
+    }
+
+    .play .right .back-img img {
+        width: 264px;
+        margin-right: 19%;
+    }
+
+    .play .right img.top {
+        width: 187px;
+        margin-top: -141px;
+        margin-left: 28%;
+    }
+
+    .play .right .top-img {
+        text-align: left;
+    }
+
+
+
+    /* Career Section  */
+    .career .container {
+        flex-direction: column;
+    }
+
+    .career {
+        background-image: none;
+        padding: 50px 0px 35px;
+    }
+
+    .career>.container>.left,
+    .career>.container>.right {
+        width: 80%;
+    }
+
+    .career .right {
+        background-image: url('./img/Group\ 65.png');
+        height: 600px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center right;
+    }
+
+
+    /* Footer top section  */
+    .Footer-top .row1,
+    .Footer-top .row2 {
+        display: none;
+    }
+
+
+    .Footer-top .for-mobile ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+
+    .Footer-top .for-mobile ul li {
+        display: flex;
+        align-items: center;
+        border: 2px solid transparent;
+        padding: 7px 10px;
+        border-radius: 70px;
+        margin-top: 25px;
+    }
+
+    .Footer-top .for-mobile ul li:hover {
+        border: 2px solid #FF42A5;
+        color: #FF42A5;
+        cursor: pointer;
+    }
+
+    .Footer-top .for-mobile ul li span {
+        margin-left: 10px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .Footer-top .for-mobile ul li img {
+        width: 45px;
+    }
+
+    .Footer-top .for-mobile {
+        padding: 10px 0px;
+    }
+
+}
+
+
+@media screen and (min-width:769px) {
     .Footer-top .for-mobile ul {
         display: none;
     }
