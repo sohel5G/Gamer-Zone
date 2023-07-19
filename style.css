@@ -359,6 +359,36 @@ ul li a {
 }
 
 
+/* Footer section style  */
+
+footer{
+    background-color: #0B0223;
+    padding: 70px 0px 20px;
+    color: #ffffff;
+    text-align: center;
+}
+footer .logo, footer .footer-nav nav ul, footer .scial-icon nav ul, footer .copyright nav ul{
+    justify-content: center;
+    margin-top: 40px;
+}
+footer .footer-nav nav ul, footer .scial-icon nav ul, footer .copyright nav ul{
+    gap: 30px;
+}
+footer .logo, footer .footer-nav nav ul li a, footer .scial-icon nav ul li a, footer .copyright nav ul li a{
+    color: #ffffff;
+}
+footer .copyright p{
+    margin-top: 25px;
+}
+footer .scial-icon nav ul li a{
+    font-size: 30px;
+}
+footer .scial-icon nav ul li a .fa-facebook{
+    color: #1877F2;
+}
+footer .scial-icon nav ul li a .fa-youtube{
+    color: #FF0000;
+}
 
 
 
