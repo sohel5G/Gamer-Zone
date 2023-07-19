@@ -219,11 +219,13 @@ ul li a {
     align-items: center;
     justify-content: center;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 8px;
+    border: 2px solid transparent;
 }
 .funny .game-cards .game-card-column .overlay:hover{
     background-color: rgba(11, 2, 35, 0.70);
     cursor: pointer;
+    border: 2px solid #FF42A5;
 }
 .funny .game-cards .game-card-column .overlay .play-icon a{
     color: #ffffff;
@@ -240,6 +242,7 @@ ul li a {
     background-position: center center;
     background-size: auto 100%;
     margin-bottom: 20px;
+    border-radius: 8px;
 }
 .funny .game-cards .game-card-column .img1{
     background-image: url('./img/Rectangle\ 4.png');
@@ -248,7 +251,7 @@ ul li a {
     background-image: url('./img/Rectangle\ 5.png');
 }
 .funny .game-cards .game-card-column .img3{
-    background-image: url('./img/Rectangle\ 7.png');
+    background-image: url('./img/Rectangle-7.1.png');
 }
 .funny .game-cards .game-card-column .img4{
     background-image: url('./img/Rectangle\ 6.png');
