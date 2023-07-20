@@ -9,7 +9,7 @@
 }
 
 .container {
-    max-width: 1100px;
+    max-width: 1140px;
     margin: auto;
 }
 
@@ -235,7 +235,7 @@ ul li a {
 }
 
 .funny .game-cards .game-card-column .overlay {
-    height: 315px;
+    height: 325px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -512,7 +512,15 @@ footer .scial-icon nav ul li a .fa-youtube {
         max-width: 100%;
         padding: 40px;
     }
-
+    .banner .left{
+        background-image: url(./img/Group14.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    .banner{
+        background-image: none;
+    }
 
     /* We are gamer section */
 
@@ -540,9 +548,12 @@ footer .scial-icon nav ul li a .fa-youtube {
         flex-direction: column;
     }
     .funny .game-cards .game-card-column .overlay {
-        height: 413px;
+        height: 420px;
+        border-radius: 30px;
     }
-
+    .funny .game-cards .game-card-column .img {
+        border-radius: 30px;
+    }
 
     /* play instently section  */
 
@@ -558,6 +569,7 @@ footer .scial-icon nav ul li a .fa-youtube {
     .play .left {
         text-align: center;
         margin-right: 0px;
+        padding: 0px;
     }
 
     .play .left .pera {
@@ -650,12 +662,15 @@ footer .scial-icon nav ul li a .fa-youtube {
 
     footer .footer-nav nav ul {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 90px 64px 115px;
+        column-gap: 10px;
     }
 
     footer .scial-icon nav ul {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 50px 50px 50px;
+        column-gap: 50px;
+        column-width: auto;
     }
 
     footer .footer-nav nav ul,
@@ -666,11 +681,13 @@ footer .scial-icon nav ul li a .fa-youtube {
 
     footer .copyright nav ul {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 190px 145px;
+        column-gap: 0px;
     }
 
     footer .copyright p {
-        margin-top: 80px;
+        margin: 60px auto 10px;
+        width: 250px;
     }
 
 
@@ -730,6 +747,19 @@ footer .scial-icon nav ul li a .fa-youtube {
         text-align: center;
     }
 
+    .banner .left{
+        background-image: url(./img/Group14.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        padding: 100px;
+    }
+    .banner{
+        background-image: none;
+    }
+
+
+
     /* We are gamer section */
 
     .gamer .container {
@@ -762,11 +792,12 @@ footer .scial-icon nav ul li a .fa-youtube {
     }
 
     .funny .game-cards .game-card-column .overlay {
-        height: 392px;
+        height: 400px;
+        border-radius: 30px;
     }
-
-
-
+    .funny .game-cards .game-card-column .img {
+        border-radius: 30px;
+    }
 
     /* play instently section  */
 
@@ -782,6 +813,7 @@ footer .scial-icon nav ul li a .fa-youtube {
     .play .left {
         text-align: center;
         margin-right: 0px;
+        padding: 0px;
     }
 
     .play .left .pera {
